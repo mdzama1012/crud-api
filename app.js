@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express();
-const pool = require('./config/db.js');
 const cors = require('cors');
+const app = express();
+
 const getUsersRouter = require('./routes/getUsers.js');
 const getUserRouter = require('./routes/getUser.js');
 const createUserRouter = require('./routes/createUser.js');
