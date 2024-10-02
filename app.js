@@ -33,5 +33,5 @@ app.use('/api/v1/updateuser', updateUserRouter);
 const PORT = 3000;
 
 app.listen(PORT, () => {
-    console.log(`Server running on the PORT: ${PORT}`);
+	console.log(`Server running on the PORT: ${PORT}`);
 });
