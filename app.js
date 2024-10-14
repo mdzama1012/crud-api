@@ -10,7 +10,7 @@ const updateUserRouter = require('./routes/updateUser.js');
 
 app.use(express.json());
 
-app.use(cors({ origin: 'http://localhost:3001' }));
+app.use(cors({ origin: 'http://127.0.0.1:5500' }));
 
 // app.get('/', async (req, res) => {
 //     try {
